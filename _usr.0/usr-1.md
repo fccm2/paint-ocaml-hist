@@ -6,7 +6,7 @@ let () =
   let mg = P.new_img () in
   let mg = P.add_clr 0 (0, 0, 1) mg in
 
-  let x, y = (10, 10) 0 in
+  let x, y = (10, 10) in
   let mg = P.add_pnt (x, y) 0 mg in
 
   P.print_img (0, 0, 100, 80) mg
